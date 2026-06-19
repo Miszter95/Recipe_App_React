@@ -1,0 +1,11 @@
+body{
+    min-height: 100vh;
+    background-color: #24628e;
+    display: flex;
+}
+
+#root {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}

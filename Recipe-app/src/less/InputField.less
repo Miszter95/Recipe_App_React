@@ -1,0 +1,45 @@
+@app-primary-color: #1b4665;
+@app-primary-text-color: #f0a127;
+
+#root{
+    background-color: #24628e;
+    color: @app-primary-text-color;
+    text-align: center;
+}
+
+.form-control{
+   
+   color: @app-primary-text-color;
+
+   &.normal{
+    background-color: @app-primary-color;
+   }
+
+   &.error{
+    background-color: red;
+   }
+}
+
+.form-control:focus{
+    background-color: @app-primary-color;
+    color: @app-primary-text-color;
+}
+
+.input-group-text{
+    background-color: @app-primary-color;
+}
+
+.label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-group{
+    width: 500px;
+    
+}
+
+.containerDiv{
+    display: flex;
+    justify-content: center;
+}
